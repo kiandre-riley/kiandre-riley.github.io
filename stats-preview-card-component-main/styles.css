@@ -28,26 +28,34 @@ body{
 .box-1{
   background-color: hsl(244, 38%, 16%);
   /* width:40%; */
-  padding:60px;
-  
+  padding:50px;
+  height:330.38px;
+  text-align:left;
+  padding-right:125px;
 
 }
 
 .box-1 h1,.box-1-stats h1{
   color:hsl(0, 0%, 100%);
+  font-family:"Inter";
+  font-weight: 700;
   
 
 }
 
 .box-1 p{
   color:hsla(0, 0%, 100%, 0.75);
+  font-family:"Inter";
 
 }
 
 .box-1-stats{
   display:flex;
   flex-direction:row;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  margin-top:80px;
+  /* margin-right:125px; */
+  text-align:left;
 
 
 }
@@ -65,7 +73,7 @@ body{
   height:368.38px;
   background-blend-mode:screen;
   
-/* height may need to be adjusted to 100% of the parent container , because the parent container is now only 50% of the height of the document. */
+
 
 
 }
